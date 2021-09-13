@@ -13,17 +13,17 @@ body {
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
+  border: 1px solid rgb(220,20,60);
   width: 281px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
-  border-right: none;
+  margin-bottom: 50px;
 }
 .search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 20px;
+  padding: 7px 20px;
+  border-radius: 7px;
+  margin-left: 12px;
 }
 #all-products {
   display: grid;
@@ -38,6 +38,10 @@ body {
 .single-product {
   padding: 10px;
   transition: 0.6s;
+  margin: 3px;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 17px;
+  box-shadow: 1px 1px 5px gray;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
@@ -83,4 +87,12 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+
+/* custom button  */
+.custom_btn {
+  color: #fff;
+  background-color: #DC143C;
+  border-color: transparent;
 }
